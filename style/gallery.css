@@ -1,0 +1,129 @@
+.html{
+    background-color: #e9d1af;
+    width: 100%;
+    height:100%; 
+}
+a:hover{
+   color: #55555f;
+}
+.line{
+    width: 100%;
+    height: 80px;   
+    border-bottom: 2px solid black;
+    display: flex;
+    list-style-type: none;
+    
+}
+.icon{
+    position: relative;left: 85%;
+    position: relative;top: 16%;
+    height: 45px;
+    width: 45px;
+    padding-left: 20px;
+}
+.pictures{
+    margin-left: 0px;
+    margin-right: 50px;
+    width: 40px;
+    background-size: 40px;
+}
+.guidance_img{
+    margin-left: 0px;
+    margin-right: 50px;
+    width: 60px;
+    background-size: 60px;
+    height: 60px;
+}
+.noguidance_img{
+    margin-left: 0px;
+    margin-right: 50px;
+    width: 40px;
+    background-size: 40px;
+}
+.Gallery{
+    font-size: 30pt;
+    color: #55555f;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    padding-left: 40px;
+}
+ .Bio, .Registration, .main, .Game{
+    font-size: 30pt;
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    padding-left: 40px;
+}
+.firstline{
+    position: relative;top: 15%;
+    margin:0%;
+    display: flex;
+    list-style-type: none;
+    width: 800px;
+    height: 62px;
+    position: relative;right: 10%;
+}
+.icon img {
+ -moz-transition: all 0.7s ease-out;
+ -o-transition: all 0.7s ease-out;
+ -webkit-transition: all 0.7s ease-out;
+ }
+ 
+.icon img:hover{
+ -webkit-transform: scale(1.3);
+ -moz-transform: scale(1.3);
+ -o-transform: scale(1.3);
+ }
+#gallery {
+   margin-top: 5%;
+    border: 4px double black;
+    background-color: #e9d1af;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.wrapper {
+    position: relative;top: 0.1%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9d1af;
+}
+
+.gallery-line {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image-box {
+    width: 200px;
+    height: 200px;
+}
+
+.min-image {
+    width: 100%;
+    height: 100%;
+}
+
+#big-image-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#big-image {
+    max-width: 70%;
+    max-height: 500px;
+}
+
+#buttons {
+    display: none;
+    justify-content: center;
+}

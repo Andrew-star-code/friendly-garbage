@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="html">
+<head>
+    <title>Галерея</title>
+    <link href="style/gallery.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+    <div class="line">
+        
+            <a href="https://vk.com/fushutinsky" class="icon"><img src="images/vk.png"class="pictures"></a>
+            <a href="https://www.youtube.com/channel/UCx87msLiQrbdTM6_8Un94mQ" class="icon"><img src="images/yt.png" class="pictures"></a>
+            <a href="https://steamcommunity.com/id/Dontlikerandomfriends" class="icon"><img src="images/Steam.png" class="pictures"></a>
+        
+            <ul class ="firstline">
+                <li><a class="main"href="index.html">Главная</a></li>
+                <li><a class ="Bio"  href="bio.html">Био</a></li>
+                <li><a class ="Gallery" href="gallery.html">Галерея</a></li>
+                <li><a class ="Registration" href="register.html"> Регистрация</a></li>
+                <li><a class="Game" href="">Игра</a></li>
+            </ul>
+    </div> 
+    
+        <div class="wrapper">
+            <div id="gallery">
+                <div class="gallery-line">
+                    <div class="image-box">
+                        <img class="min-image" id="1" src="images/1.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="2" src="images/2.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="3" src="images/3.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="4" src="images/4.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="5" src="images/5.jpg">
+                    </div>
+                </div>
+                <div id="big-image-box"></div>
+                <div id="buttons">
+                    <button onclick="prev()" id="prev_pic"><----</button> <button onclick="next()" id="next_pic">----></button>
+                </div>
+                <div class="gallery-line">
+                    <div class="image-box">
+                        <img class="min-image" id="6" src="images/6.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="7" src="images/7.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="8" src="images/8.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="9" src="images/9.jpg">
+                    </div>
+                    <div class="image-box">
+                        <img class="min-image" id="10" src="images/10.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <script src="script/script.js"></script>
+    </body>
+</html>
